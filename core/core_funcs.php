@@ -14,10 +14,3 @@ function print_header($sitename, $pagename) {
     
     <?php
 }
-
-//Получение строк из БД
-function getFromDB($query) {
-    global $mysqli;
-
-    $getStrings = mysqli_query($mysqli, $query);
-}
